@@ -4,10 +4,10 @@ from time import sleep
 
 def uklop():
 	gpio.setup(8, gpio.OUT)
-	puts "Turning on 8"
+	print "Turning on 8"
 	gpio.output(8,True)
 	sleep(1)
-	puts "Turning off 8"
+	print "Turning off 8"
 	gpio.output(8,False)
 	sleep(1)
 	
