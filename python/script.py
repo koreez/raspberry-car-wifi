@@ -40,15 +40,15 @@ while True:
 		print "Going UP"
 		turnOn(up)
 		
-	if status == '2':
+	elif status == '2':
 		print "Going Back"
 		turnOn(down)
 		
-	if status == '3':
+	elif status == '3':
 		print "Going Left"
 		turnOn(left)
 		
-	if status == '4':
+	elif status == '4':
 		print "Going Right"
 		turnOn(right)
 		
