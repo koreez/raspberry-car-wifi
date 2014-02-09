@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="stylesheet/css" href="style.css">
+<script>
+function move(direction)
+{
+	if(direction == "up") {
+		document.getElementById("demo").innerHTML = direction;
+	} else if(direction == "down") {
+		document.getElementById("demo").innerHTML = direction;
+	} else if(direction == "left") {
+		document.getElementById("demo").innerHTML=direction;
+	} else if(direction == "right") {
+		document.getElementById("demo").innerHTML=direction;
+	}
+}
+</script>
+</head>
+
+<body bgcolor="black">
+
+
+<div class="header"><center><h1>Raspberry pi remote control</h1></center></div>
+
+
+<center><p id="demo" style="color: white">A Paragraph</p></center>
+<br>
+<br>
+
+
+
+<div class="body">
+<center><table border="0">
+<tr>
+<td></td>
+<td>
+	<center>
+		<img src="images/up.png" height="120px" onclick="move('up')">
+	</center>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><center><img src="images/left.png" height="60px" onclick="move('left')"></center>
+</td>
+<td></td>
+<td><center><img src="images/right.png" height="60px" onclick="move('right')"></center></td>
+</tr>
+<td></td>
+<td><center><img src="images/down.png" height="120px" onclick="move('down')"></center></td>
+<td></td>
+</table></center>
+</div>
+
+
+</body>
+</html>
