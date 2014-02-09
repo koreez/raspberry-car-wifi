@@ -18,10 +18,19 @@ def getStatus():
 	
 ### Main Program
 
+up = 8
+down = 8
+left = 8
+right = 8
+
 print "Script is starting..."
 
-print "Initializing pin 8..."
-init(8)
+print "Initializing pins..."
+init(up)
+init(down)
+init(left)
+init(right)
+
 print "Done."
 
 while True:
@@ -29,10 +38,25 @@ while True:
 	
 	if status == '1':
 		print "Going UP"
-		turnOn(8)
+		turnOn(up)
+		
+	if status == '2':
+		print "Going Back"
+		turnOn(down)
+		
+	if status == '3':
+		print "Going Left"
+		turnOn(left)
+		
+	if status == '4':
+		print "Going Right"
+		turnOn(right)
 		
 	else:
 		print "Idle"
-		turnOff(8)
+		turnOff(up)
+		turnOff(down)
+		turnOff(left)
+		turnOff(right)
 
 	sleep(1)
