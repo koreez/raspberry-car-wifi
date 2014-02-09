@@ -10,6 +10,10 @@ def turnOn(pin):
 	
 def turnOff(pin):
 	gpio.output(8,False)
+	
+def getStatus():
+	f = open('../script/input.txt', 'r')
+	return f.read(1)
 
 	
 ### Main Program
@@ -21,11 +25,14 @@ init(8)
 print "Done."
 
 while True:
-	print "Turning on 8"
-	turnOn(8)
-	sleep(1)
+	status = getStatus()
 	
-	print "Turning off 8"
-	turnOff(8)
+	if status == '1':
+		print "Going UP"
+		turnOn(8)
+		
+	else:
+		print "Idle"
+		turnOff(8)
+
 	sleep(1)
-	
