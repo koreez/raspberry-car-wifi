@@ -46,12 +46,12 @@ while True:
 
 	elif status == '3':
 		print "Going Left"
-		# turnOn(up)
+		turnOn(up)
 		turnOn(left)
 
 	elif status == '4':
 		print "Going Right"
-		# turnOn(up)
+		turnOn(up)
 		turnOn(right)
 
 	else:
