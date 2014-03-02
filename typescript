@@ -1,0 +1,3089 @@
+Script started on Sun Mar  2 09:05:53 2014
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp]1;~/Sites/rasp[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp][00m[1m$[0m [K[74C[33mrvm:[00m[31mruby-2.0.0-p195[00m [94Dccd script[1m/[0m[0m 
+]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dlls s-  -s  a input.txt[1m [0m[0m 
+]2;ls -G -a input.txt]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -a input.txt[1C input.txt [11Ds input.txt[10D
+]2;ls -G -s input.txt]1;ls0 input.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -s input.txt input.txt [11Dc input.txt[10D
+]2;ls -G -c input.txt]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -c input.txt input.txt [11Dv input.txt[10D
+]2;ls -G -v input.txt]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dlls -h
+]2;ls -G -h]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -h -help
+]2;ls -G --help]1;lsls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls --help     f
+]2;ls -G -f]1;ls[1m[36m.[39;49m[0m         [1m[36m..[39;49m[0m        input.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -f a s
+]2;ls -G -s]1;lstotal 0
+0 input.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -s x
+]2;ls -G -x]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -x c
+]2;ls -G -c]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -c v
+]2;ls -G -v]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -v b
+]2;ls -G -b]1;lsinput.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -b n
+]2;ls -G -n]1;lstotal 0
+-rw-r--r--  1 501  20  0  2 mar 09:04 input.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dcchdom   mod 755 input.txt[1m [0m[0m 
+]2;chmod 755 input.txt]1;chmod[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dchmod 755 input.txt[19Dls -n              [14D
+]2;ls -G -n]1;lstotal 0
+-rwxr-xr-x  1 501  20  0  2 mar 09:04 [31minput.txt[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dcchmod 666 input.txt[1m [0m[0m 
+]2;chmod 666 input.txt]1;chmod[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dchmod 666 input.txt[19Dls -n              [14D
+]2;ls -G -n]1;lstotal 0
+-rw-rw-rw-  1 501  20  0  2 mar 09:04 input.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dls -nchmod 666 input.txt[19Dls -n              [14Dchmod 755 input.txt[19Dls -n              [14Dbvcxsf-helph    v input.txt[11Dc[10C[11Ds[10C[11Da[10C[15Dcd script      [9Dscript   ..    sudo python script.py[21Dcd python            [12D[9Dsudo python script.py[21D..                   [19Dsudo python script.py[21D..                   [19Dscriptcd script[9Dls -a input.txt[15Dcd script      [9Dscript   ..    sudo python script.py[21Dcd python            [12D[9Dpython   cd python[9Dsudo python script.py
+]2;sudo python script.py]1;pythonPassword:
+python: can't open file 'script.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/script]1;..s/rasp/script[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/script][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D...
+]2;cd ..]1;..[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp]1;~/Sites/rasp[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp][00m[1m$[0m [K[74C[33mrvm:[00m[31mruby-2.0.0-p195[00m [94D..sudo python script.py
+]2;sudo python script.py]1;pythonpython: can't open file 'script.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp]1;~/Sites/rasp[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp][00m[1m$[0m [K[74C[33mrvm:[00m[31mruby-2.0.0-p195[00m [94Dccd python[1m/[0m[0m 
+]2;cd python]1;cd[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dcd python[9Dsudo python script.py
+]2;sudo python script.py]1;pythonScript is starting...
+Initializing pins...
+
+
+
+
+Done.
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Left
+
+Going Left
+
+Going Left
+
+Going UP
+
+Going UP
+
+Going UP
+
+Going Back
+
+Going Back
+
+Going Back
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going Right
+
+Going UP
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going Left
+
+Going Right
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going UP
+
+Idle
+
+
+
+
+Going Back
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going Left
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going UP
+
+Going UP
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going UP
+
+Going Right
+
+Going Left
+
+Idle
+
+
+
+
+Going UP
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going Back
+
+Idle
+
+
+
+
+Going UP
+
+Going Right
+
+Going Left
+
+Going Back
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going Left
+
+Going Left
+
+Idle
+
+
+
+
+Going UP
+
+Going Left
+
+Going Right
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Going UP
+
+Going UP
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+Idle
+
+
+
+
+^CTraceback (most recent call last):
+  File "script.py", line 65, in <module>
+    sleep(1)
+KeyboardInterrupt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dsudo python script.py
+]2;sudo python script.py]1;pythonPassword:
+Script is starting...
+Initializing pins...
+Done.
+
+
+
+
+
+
+
+
+
+
+
+
+^CTraceback (most recent call last):
+  File "script.py", line 65, in <module>
+    sleep(1)
+KeyboardInterrupt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dsudo python script.py
+]2;sudo python script.py]1;pythonScript is starting...
+Initializing pins...
+Done.
+Going UP
+Going UP
+Going UP
+^CTraceback (most recent call last):
+  File "script.py", line 65, in <module>
+    sleep(1)
+KeyboardInterrupt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dsudo python script.py
+]2;sudo python script.py]1;pythonScript is starting...
+Initializing pins...
+Done.
+Going UP
+Going UP
+Going UP
+Going UP
+^CTraceback (most recent call last):
+  File "script.py", line 65, in <module>
+    sleep(0.1)
+KeyboardInterrupt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87Dsudo python script.py
+]2;sudo python script.py]1;pythonScript is starting...
+Initializing pins...
+Done.
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Back
+Going Left
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Left
+Going Left
+Going Left
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Back
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going Right
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going UP
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+Going Left
+^CTraceback (most recent call last):
+  File "script.py", line 65, in <module>
+    sleep(0.1)
+KeyboardInterrupt
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D
+[1m[7m%[27m[1m[0m                                                                                                                        ]2;Jacob@jacob: ~/Sites/rasp/python]1;..s/rasp/python[0m[27m[24m[J[31m*[00m[00m[32m[master][00m[36m[~/Sites/rasp/python][00m[1m$[0m [K[67C[33mrvm:[00m[31mruby-2.0.0-p195[00m [87D

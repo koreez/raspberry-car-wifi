@@ -2,18 +2,77 @@
 <html>
 <head>
 <link rel="stylesheet" type="stylesheet/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
-function move(direction)
-{
-	if(direction == "up") {
-		document.getElementById("demo").innerHTML = direction;
-	} else if(direction == "down") {
-		document.getElementById("demo").innerHTML = direction;
-	} else if(direction == "left") {
-		document.getElementById("demo").innerHTML=direction;
-	} else if(direction == "right") {
-		document.getElementById("demo").innerHTML=direction;
+$(document).ready(function() {
+
+	$(".control").mousedown(function() {
+		move($(this).attr("move"))
+	}).mouseup(function() {
+		stop()
+	});
+});
+
+keypressed = false
+
+$(document).keydown(function(e) {
+	if(!keypressed) {
+	  if (e.keyCode == 37) {
+	  	keypressed = true
+	  	move("left")
+	    return false;
+	  } else if(e.keyCode == 38) {
+	  	keypressed = true
+	  	move("up")
+	    return false;
+	  } else if(e.keyCode == 39) {
+	  	keypressed = true
+	  	move("right")
+	    return false;
+	  } else if(e.keyCode == 40) {
+	  	keypressed = true
+	  	move("down")
+	    return false;
+	  }
 	}
+});
+
+$(document).keyup(function(e) {
+  if (e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 39 || e.keyCode == 40) {
+  	keypressed = false
+	  stop()
+	  return false
+  }
+});
+
+
+function move(direction) {
+	console.log("moving "+direction)
+
+	moveit = 0
+	if(direction == "up") {
+		moveit = 1
+	} else if(direction == "down") {
+		moveit = 2
+	} else if(direction == "left") {
+		moveit = 3
+	} else if(direction == "right") {
+		moveit = 4
+	}
+
+	update(moveit)
+}
+
+function stop() {
+	console.log("stoped")
+	update(0)
+}
+
+function update(moveit) {
+	$.ajax({
+	  url: "update.php?move="+moveit,
+	  context: document.body
+	});
 }
 </script>
 </head>
@@ -33,22 +92,22 @@ function move(direction)
 <div class="body">
 <center><table border="0">
 <tr>
-<td></td>
-<td>
-	<center>
-		<img src="images/up.png" height="120px" onclick="move('up')">
-	</center>
-</td>
-<td></td>
+	<td></td>
+	<td>
+		<center>
+			<img src="images/up.png" class="control" height="120px" move="up">
+		</center>
+	</td>
+	<td></td>
 </tr>
 <tr>
-<td><center><img src="images/left.png" height="60px" onclick="move('left')"></center>
-</td>
-<td></td>
-<td><center><img src="images/right.png" height="60px" onclick="move('right')"></center></td>
+	<td><center><img src="images/left.png" class="control" height="60px" move="left"></center>
+	</td>
+	<td></td>
+	<td><center><img src="images/right.png" class="control" height="60px" move="right"></center></td>
 </tr>
 <td></td>
-<td><center><img src="images/down.png" height="120px" onclick="move('down')"></center></td>
+<td><center><img src="images/down.png" class="control" height="120px" move="down"></center></td>
 <td></td>
 </table></center>
 </div>
