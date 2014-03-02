@@ -3,13 +3,13 @@ import RPi.GPIO as gpio
 from time import sleep
 
 def init(pin):
-	gpio.setup(8, gpio.OUT)
+	gpio.setup(pin, gpio.OUT)
 
 def turnOn(pin):
-	gpio.output(8,True)
+	gpio.output(pin,True)
 
 def turnOff(pin):
-	gpio.output(8,False)
+	gpio.output(pin,False)
 
 def getStatus():
 	f = open('../script/input.txt', 'r')
@@ -18,10 +18,10 @@ def getStatus():
 
 ### Main Program
 
-up = 8
+up = 7
 down = 8
-left = 8
-right = 8
+left = 11
+right = 15
 
 print "Script is starting..."
 
@@ -46,10 +46,12 @@ while True:
 
 	elif status == '3':
 		print "Going Left"
+		turnOn(up)
 		turnOn(left)
 
 	elif status == '4':
 		print "Going Right"
+		turnOn(up)
 		turnOn(right)
 
 	else:
