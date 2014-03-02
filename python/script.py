@@ -6,10 +6,10 @@ def init(pin):
 	gpio.setup(pin, gpio.OUT)
 
 def turnOn(pin):
-	gpio.output(pin,True)
+	gpio.output(pin,False)
 
 def turnOff(pin):
-	gpio.output(pin,False)
+	gpio.output(pin,True)
 
 def getStatus():
 	f = open('../script/input.txt', 'r')
