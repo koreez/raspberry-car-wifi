@@ -8,7 +8,9 @@ $(document).ready(function() {
 
 	$(".control").mousedown(function() {
 		move($(this).attr("move"))
-	}).mouseup(function() {
+	})
+
+	$(document).mouseup(function() {
 		stop()
 	});
 });
@@ -48,6 +50,7 @@ $(document).keyup(function(e) {
 
 function move(direction) {
 	console.log("moving "+direction)
+	$("."+direction).css("background-color", "green")
 
 	moveit = 0
 	if(direction == "up") {
@@ -64,6 +67,7 @@ function move(direction) {
 }
 
 function stop() {
+	$(".control").css("background-color", "black")
 	console.log("stoped")
 	update(0)
 }
@@ -95,19 +99,19 @@ function update(moveit) {
 	<td></td>
 	<td>
 		<center>
-			<img src="images/up.png" class="control" height="120px" move="up">
+			<img src="images/up.png" class="control up" height="120px" move="up">
 		</center>
 	</td>
 	<td></td>
 </tr>
 <tr>
-	<td><center><img src="images/left.png" class="control" height="60px" move="left"></center>
+	<td><center><img src="images/left.png" class="control left" height="60px" move="left"></center>
 	</td>
 	<td></td>
-	<td><center><img src="images/right.png" class="control" height="60px" move="right"></center></td>
+	<td><center><img src="images/right.png" class="control right" height="60px" move="right"></center></td>
 </tr>
 <td></td>
-<td><center><img src="images/down.png" class="control" height="120px" move="down"></center></td>
+<td><center><img src="images/down.png" class="control down" height="120px" move="down"></center></td>
 <td></td>
 </table></center>
 </div>
